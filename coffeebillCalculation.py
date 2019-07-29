@@ -103,8 +103,10 @@ def taxDetermine(intCityState,subTotal):
 # calculate delivery cost
 def deliveryCostDetermine(intDeliverType):
      deliverCost=0.00
+     #if intDeliverType ==1
      if intDeliverType==1:
           deliverCost=20.00
+     #if intDeliverType ==2
      elif intDeliverType==2:
           deliverCost=13.00
      else: 
